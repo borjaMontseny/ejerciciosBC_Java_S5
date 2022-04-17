@@ -1,11 +1,11 @@
 package ejercicio1;
 
 public class Persona {
-	
+
 	// Las constantes
 	private final char HOMBRE = 'H';
 	private final char MUJER = 'M';
-	
+
 	// Los objetos tendrán estos atributos llenos así por defecto
 	private String nombre;
 	private int edad;
@@ -13,9 +13,10 @@ public class Persona {
 	private char sexo;
 	private double peso;
 	private double altura;
-	
+
 	// Aquí definimos Los constructores
-	public Persona() { // El constructor por defecto (sin parámetros) creará el objeto con estos valores
+	public Persona() { // El constructor por defecto (sin parámetros) creará el objeto con estos
+						// valores
 
 		this.nombre = "";
 		this.edad = 0;
